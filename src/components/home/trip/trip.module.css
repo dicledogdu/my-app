@@ -1,0 +1,55 @@
+.trip {
+  display: flex;
+  text-align: left;
+  padding: 50px 0;
+}
+
+.trip_title {
+  margin-bottom: 50px;
+}
+
+.trip_title__sub {
+  font-size: 18px;
+  color: #5e6282;
+}
+
+.trip_title__main {
+  font-size: 50px;
+  color: #14183e;
+  margin-top: 10px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.step_item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.step_text {
+  flex: 1;
+  text-align: left;
+  margin-right: 20px;
+  color: #5e6282;
+}
+
+.step_image {
+  width: 80px;
+  height: 80px;
+}
+
+.step_title {
+  color: #5e6282;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,70 @@
+.testimonials {
+  text-align: left;
+  padding: 2rem;
+}
+
+.title {
+  color: #4a4a4a;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #2e2e2e;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  position: relative;
+  width: 300px;
+}
+
+.profileImage {
+  position: absolute;
+  top: -25px;
+  left: 15px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.quote {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 2rem 0 1rem 0;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  color: #7d7d7d;
+  font-size: 0.9rem;
+}

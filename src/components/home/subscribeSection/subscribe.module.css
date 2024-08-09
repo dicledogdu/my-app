@@ -1,0 +1,43 @@
+.subscribe {
+  background-color: rgba(223, 215, 249, 0.2);
+  padding: 100px 20px; /* İç boşluk */
+  text-align: center; /* Ortalamak için */
+  border-top-left-radius: 100px; /* Sol üst köşeyi yuvarlat */
+  border-top-right-radius: 10px; /* Diğer köşeleri düz bırak */
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.subscribeContent {
+  max-width: 600px; /* Maksimum genişlik */
+  margin: 0 auto; /* Ortalamak için */
+}
+
+.subscribeDescription {
+  font-size: 1rem; /* Açıklama boyutu */
+  margin-bottom: 20px; /* Alt boşluk */
+  color: #5e6282; /* Açıklama rengi */
+}
+
+.subscribeForm {
+  display: flex; /* Flexbox kullanarak hizalama */
+  justify-content: center; /* Orta hizalama */
+}
+
+.subscribeInput {
+  flex: 1; /* Genişliğini ayarlamak için */
+  padding: 10px; /* İç boşluk */
+  margin-right: 10px; /* Sağ boşluk */
+  border: 1px solid #ddd; /* Kenar rengi */
+  border-radius: 4px; /* Köşe yuvarlatma */
+}
+
+.subscribeButton {
+  padding: 10px 20px; /* İç boşluk */
+  border: none; /* Kenar yok */
+  border-radius: 4px; /* Köşe yuvarlatma */
+  background-color: #ff7d68; /* Buton rengi */
+  color: white; /* Yazı rengi */
+  font-size: 1rem; /* Yazı boyutu */
+  cursor: pointer; /* İmleci değiştirme */
+}
