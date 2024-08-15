@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import "./globals.css";
 import logo from "public/logo.png";
 import MainBanner from "src/components/home/mainBanner/MainBanner";
 import Category from "src/components/home/category/category";
@@ -57,38 +58,6 @@ export default function Home() {
           <SubscribeSection />
           <Footer />
         </div>
-
-        {/* <div className={styles.imageContainer2}>
-          <Image src={services} alt="Açıklama 3" className={styles.image3} />
-        </div>
-
-        <div className={styles.imageContainer4}>
-          <Image
-            src={destinations}
-            alt="Açıklama 4"
-            className={styles.image4}
-          />
-        </div>
-
-        <div className={styles.imageContainer5}>
-          <Image src={bookatrip} alt="Açıklama 5" className={styles.image5} />
-        </div>
-
-        <div className={styles.imageContainer6}>
-          <Image src={dusunceler} alt="Açıklama 6" className={styles.image5} />
-        </div>
-
-        <div className={styles.imageContainer7}>
-          <Image src={logos} alt="Açıklama 7" className={styles.image7} />
-        </div>
-
-        <div className={styles.imageContainer8}>
-          <Image src={subscribe} alt="Açıklama 8" className={styles.image8} />
-        </div>
-
-        <div className={styles.imageContainer9}>
-          <Image src={footer} alt="Açıklama 9" className={styles.image9} />
-        </div> */}
       </div>
     </>
   );

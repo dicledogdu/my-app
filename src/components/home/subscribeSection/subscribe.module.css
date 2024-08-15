@@ -41,3 +41,43 @@
   font-size: 1rem; /* Yazı boyutu */
   cursor: pointer; /* İmleci değiştirme */
 }
+@media (max-width: 768px) {
+  .subscribe {
+    padding: 80px 20px; /* İç boşluk */
+  }
+
+  .subscribeDescription {
+    font-size: 0.9rem; /* Açıklama boyutu */
+    margin-bottom: 15px; /* Alt boşluk */
+  }
+
+  .subscribeForm {
+    flex-direction: column; /* Dikey hizalama */
+    align-items: center; /* Orta hizalama */
+  }
+
+  .subscribeInput {
+    width: 100%; /* Genişliği %100 yap */
+    margin-right: 0; /* Sağ boşluk kaldır */
+    margin-bottom: 10px; /* Alt boşluk */
+  }
+
+  .subscribeButton {
+    width: 100%; /* Genişliği %100 yap */
+    margin-top: 10px; /* Üst boşluk */
+  }
+}
+
+@media (max-width: 480px) {
+  .subscribe {
+    padding: 60px 10px; /* İç boşluk */
+  }
+
+  .subscribeDescription {
+    font-size: 0.8rem; /* Açıklama boyutu */
+  }
+
+  .subscribeButton {
+    font-size: 0.9rem; /* Buton yazı boyutu */
+  }
+}

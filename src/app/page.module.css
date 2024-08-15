@@ -71,3 +71,67 @@
   background-color: #ffffff;
   margin-top: 30px;
 }
+/* Tablet ve altı */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Dikey hizalama */
+    align-items: flex-start; /* Sol hizalama */
+  }
+
+  .logo {
+    margin-left: 0; /* Sol boşluğu kaldır */
+    margin-bottom: 10px; /* Alt boşluk */
+  }
+
+  .navContainer {
+    width: 100%;
+    overflow-x: auto; /* Yatay kaydırma */
+  }
+
+  .navList {
+    flex-direction: column; /* Dikey hizalama */
+    gap: 20px;
+  }
+
+  .navItem {
+    font-size: 14px; /* Yazı boyutu artırıldı */
+  }
+
+  .signUp {
+    padding: 5px; /* İç boşluğu küçült */
+    font-size: 14px; /* Yazı boyutu artırıldı */
+  }
+
+  .content {
+    padding: 10px 20px; /* İç boşluğu küçült */
+    margin-top: 20px; /* Üst boşluk */
+  }
+}
+
+/* Mobil */
+@media (max-width: 480px) {
+  .header {
+    padding: 15px; /* İç boşluğu küçült */
+  }
+
+  .logo {
+    width: 80px; /* Logo boyutu küçült */
+  }
+
+  .navList {
+    gap: 15px; /* Aralarındaki boşluğu küçült */
+  }
+
+  .navItem {
+    font-size: 12px; /* Yazı boyutunu küçült */
+  }
+
+  .signUp {
+    padding: 4px 8px; /* İç boşluğu küçült */
+  }
+
+  .content {
+    padding: 10px 10px; /* İç boşluğu daha da küçült */
+    margin-top: 10px; /* Üst boşluğu küçült */
+  }
+}

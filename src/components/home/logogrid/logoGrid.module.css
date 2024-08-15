@@ -19,3 +19,28 @@
   max-width: 150px;
   margin: 0 20px;
 }
+@media (max-width: 1024px) {
+  .logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logo {
+    max-width: 120px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    max-width: 100px;
+    margin: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    max-width: 80px;
+    margin: 5px;
+  }
+}
